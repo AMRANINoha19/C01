@@ -11,6 +11,6 @@ int ft_strlen(char *str){
 
 int main(){
     int i=ft_strlen("hello alice!");
-    printf("la longuere de chaine est:%d",i);
+    printf("lenght of string is:%d",i);
     return 0;
 }
