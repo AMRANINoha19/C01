@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 void ft_ft(int *nbr){
-    *nbr = 42; // we change the value of variable "x" with 42
+    *nbr = 42; 
 }
 
 int main(){
