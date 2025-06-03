@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 void ft_ultimate_ft(int *********nbr){
-    *********nbr=42;//deference pointer 9 fois pou arrive a x est changer lui valeur avec 42
+    *********nbr=42;
 }
 
 int main(){
@@ -16,7 +16,7 @@ int main(){
     int *******p7=&p6;
     int ********p8=&p7;
     int *********p9=&p8;
-    ft_ultimate_ft(p9);//on doit ecrire (p9) car,&x=*int,mais on a *********int 
+    ft_ultimate_ft(p9);
     printf("%d",x);
     return 0;
 }
